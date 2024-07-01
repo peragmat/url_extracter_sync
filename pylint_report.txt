@@ -1,0 +1,9 @@
+************* Module server
+06/server.py:12:0: R0902: Too many instance attributes (8/7) (too-many-instance-attributes)
+************* Module test_server
+06/test_server.py:119:16: W0212: Access to a protected member _keep_working of a client class (protected-access)
+06/test_server.py:14:8: W0201: Attribute 'created_connections' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.92/10 (previous run: 9.92/10, +0.00)
+
