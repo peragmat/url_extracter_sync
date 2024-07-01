@@ -44,12 +44,12 @@ pip install -r requirements.txt
 Для запуска сервера используйте следующую команду:
 
 ```bash
-python server.py -w <количество воркеров> -k <количество слов в топе>
+python src/server.py -w <количество воркеров> -k <количество слов в топе>
 ```
 Пример:
 
 ```bash
-python server.py -w 10 -k 7
+python src/server.py -w 10 -k 7
 ```
 
 ### Запуск клиента
@@ -58,13 +58,13 @@ python server.py -w 10 -k 7
 
 ```bash
 
-python client.py <количество потоков> <файл с URL>
+python src/client.py <количество потоков> <файл с URL>
 ```
 
 Пример:
 
 ```bash
-python client.py 10 urls.txt
+python src/client.py 10 urls.txt
 ```
 
 ### Параметры запуска
